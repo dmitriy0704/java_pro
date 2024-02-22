@@ -1,6 +1,6 @@
-package my.home.arrays;
+package my.home.threads;
 
-public class SearchMinMax {
+public class ThreadsMain {
     public static void main(String[] args) {
 
     }
