@@ -1,4 +1,4 @@
-package my.home.variables;
+package my.home.base.variables;
 
 public class MainVariables {
     public static void main(String[] args) {

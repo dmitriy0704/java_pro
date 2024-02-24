@@ -1,4 +1,4 @@
-package my.home.enums;
+package my.home.base.enums;
 
 public class EnumsMain {
     public static void main(String[] args) {
