@@ -10,7 +10,11 @@ public class OopMain {
         System.out.println(Arrays.toString(arr));
     }
 
-    public static void changeArr(int[] ar){
+    public static void changeArr(int[] ar) {
         ar[0] = 10;
+    }
+
+    public void createArr() {
+
     }
 }
