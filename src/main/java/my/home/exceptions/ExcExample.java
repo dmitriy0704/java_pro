@@ -12,17 +12,17 @@ import java.util.Locale;
 public class ExcExample {
     private static final Logger logger = LogManager.getLogger("HelloWorld");
 
-    public double parseFormatFrance(String numberStr) {
+    public double parseFormatFrance(String numberStr) throws ParseException {
 
         logger.info("Hello, World!");
 
         NumberFormat format = NumberFormat.getInstance(Locale.FRANCE);
         double numFrance = 0;
-        try {
+//        try {
             numFrance = format.parse(numberStr).doubleValue();
-        } catch (ParseException e) {
-            logger.error(e.getMessage());
-        }
+//        } catch (ParseException e) {
+//            logger.error(e.getMessage());
+//        }
         return numFrance;
     }
 }
